@@ -1,0 +1,9 @@
+{
+  "name": "prelude-spike-14.5",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Plan 14.5 cloud sandbox spike target — throwaway. Includes a tiny dep so Phase 2 (install with allowlist) is live-exercised.",
+  "dependencies": {
+    "nanoid": "5.0.7"
+  }
+}
