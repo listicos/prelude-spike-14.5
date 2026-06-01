@@ -25,3 +25,7 @@ module.exports.subtract = subtract;
 // trigger re-review after execution-context fix
 function modulo(a, b) { return a % b }
 module.exports.modulo = modulo;
+
+// trigger re-review after EC-membership fix
+function negate(a) { return -a }
+module.exports.negate = negate;
