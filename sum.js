@@ -21,3 +21,7 @@ module.exports.multiply = multiply;
 // trigger re-review after effectKind fix
 function subtract(a, b) { return a - b }
 module.exports.subtract = subtract;
+
+// trigger re-review after execution-context fix
+function modulo(a, b) { return a % b }
+module.exports.modulo = modulo;
