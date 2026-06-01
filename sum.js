@@ -12,3 +12,8 @@ function divide(a, b) {
 }
 
 module.exports = { sum, divide };
+
+function multiply(a, b) {
+  return a * b
+}
+module.exports.multiply = multiply;
