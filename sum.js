@@ -17,3 +17,7 @@ function multiply(a, b) {
   return a * b
 }
 module.exports.multiply = multiply;
+
+// trigger re-review after effectKind fix
+function subtract(a, b) { return a - b }
+module.exports.subtract = subtract;
